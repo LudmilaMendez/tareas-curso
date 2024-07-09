@@ -1,45 +1,46 @@
 <!DOCTYPE.html>
 <html>
-    <form action="" method="">
+    <link rel="stylesheet" href="CVconEstilo.css">
+    <form action="" method="" class="LinkForm">
             <center>
                 <fieldset>
-                    <legend>Datos Basicos</legend>
+                    <legend class="legend">Datos Basicos</legend>
                 <p>
-        <label for="Nombre">Nombre</label>
+        <label for="Nombre" class="label">Nombre</label>
         </p>
-        <input type="text" id="Nombre"/>
+        <input type="text" class="input" placeholder="Pepe" required/>
         <p>
-            <label for="Apellido">Apellido</label>
+            <label for="Apellido" class="label">Apellido</label>
             </p>
-            <input type="text" id="Apellido"/>
+            <input type="text" class="input" placeholder="Lopez"/>
             <p>
-                <label for="Edad">Nacimiento</label>
+                <label for="Edad" class="label">Nacimiento</label>
             </p>
-            <input type="date" id="Edad"/>
+            <input type="date" id="inputage"/>
             </fieldset>
-            <fieldset>
-                <legend>Contacto</legend>
+            <fieldset class="fieldset" >
+                <legend class="legend">Contacto</legend>
                 <p>
-                    <label for="email">Email</label>
+                    <label for="email" class="label">Email</label>
                 </p>
-                <input type="email" id="email"/>
+                <input type="email" class="input" placeholder="pepelopez@gmail.com" required/>
                 <p>
-                    <label for="telefono">Telefono</label>
+                    <label for="telefono" class="label">Telefono</label>
                     </p>
                     <p>
-                        <input type="text" id="telefono"/>
+                        <input type="text" class="input" placeholder="+59 1153423789"/>
                     </p>
                 </p>
             </fieldset>
         </center>
             <p>
-                <label for="consulta">Consulta</label>
+                <label for="consulta" class="labelarea">Consulta</label>
             </p>
             <textarea name="Consulta Laboral" id="consulta" placeholder="Deja tu consulta"></textarea>
             <center>
                 <p>
-                    <input type="submit" value="Enviar"/>
-                    <input type="reset" value="Borrar"/>
+                    <input type="submit" value="Enviar" class="boton1"/>
+                    <input type="reset" value="Borrar" class="boton2"/>
                 </p>
             </center>
         </form>

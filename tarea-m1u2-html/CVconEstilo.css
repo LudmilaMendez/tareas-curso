@@ -1,0 +1,99 @@
+body {
+    box-sizing: border-box 100px;
+    margin:0px;
+    text-align: start;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(194, 181, 181);
+
+}
+
+.tituloh1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: mintcream;
+    padding-top: 10px;
+}
+
+
+img [PhoebeCV.jpg] {
+    align-self:center;
+    width: 100%;
+    position:center;
+}
+
+.estiloperfil {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    color: mistyrose;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lorem {
+    color: moccasin;
+    font-style: oblique;
+}
+.estiloEdad {
+    padding-left: 210px;
+    display:inline-block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: mistyrose
+}
+
+.estiloDomi {
+    display:inline-block;
+    padding-left: 420px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: mistyrose;
+}
+
+.pregunta1 , .pregunta2 {
+    text-decoration: underline;
+    color: mistyrose;
+}
+.lista1 , .lista2 {
+    font-size: small;
+    font-style: italic;
+    color: rgb(248, 234, 245);
+}
+.form {
+    padding-left: 400px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: mintcream;
+    line-height: 2;
+    letter-spacing: 1.5;
+}
+#Formulario {
+    font-size: larger;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(249, 111, 192);
+}
+.LinkForm {
+    background-color: rgb(249, 182, 204);
+}
+.label:hover {
+    color: rgb(249, 111, 150);
+}
+#inputage , .input {
+    color: rgb(249, 111, 192);
+}
+#inputage:hover , .input:hover {
+    background-color:antiquewhite ;
+}
+.boton1:hover , .boton2:hover {
+background-color: rgb(243, 132, 196);
+}
+.labelarea {
+    padding-left: 590px;
+    text-decoration: underline;
+}
+.labelarea:hover {
+    color: rgb(249, 111, 150);
+}
+#consulta {
+    font-family: inherit;
+    width: 100%;
+    height: 10%;
+    color-scheme: rgb(243,132,196);
+}
