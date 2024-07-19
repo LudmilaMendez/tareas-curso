@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport">
+    <title>Tarea Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+<nav class="navbar fixed-top navbar-expand-sm" style="background-color: #0008; font-weight: bolder;">
+  <div class="container-fluid">
+    <div class="row">
+    <!--Logo en Nav-->
+    <section class="col-6">
+    <a class="navbar-brand" href="#" style="font-family: 'Courier New', Courier, monospace;">
+    <img src="logosammetcake.jpg" alt="Logo" width="60" height="54" class="d-inline-block">
+      Sammet Cake
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </section>
+    <!--Barra de Navegacion en si-->
+    <section class="col-6">
+        <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre Mi</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle btn-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu
+          </a>
+          <!--Menu Desplegable-->
+          <ul class="dropdown-menu" style="background-color: #0008;">
+            <li><a class="dropdown-item" href="#" role="button" style="color: black;">Dulces</a>
+              <ul>
+                <li>
+                  <a class="dropdown-dulces-0" href="#" role="button" style="color: black;" >Tortas</a>
+                </li>
+                <li>
+                  <a class="dropdown-dulces-1" href="#" role="button" style="color: black;">Tartas</a>
+                  </li>
+                  <li>
+                  <a class="dropdown-dulces-2" href="#" role="button" style="color: black;">Budines</a>
+                  </li>
+              </ul>
+          </li>
+            <hr></hr>
+            <li>
+              <a class="dropdown-item" href="#" style="color: black;" >Salados</a>
+            <ul>
+              <li>
+                <a class="dropdown-salados-0" href="#" role="button" style="color: black;" >Scones</a>
+                </li>
+                <li>
+                <a class="dropdown-salados-1" href="#" role="button" style="color: black;" >Pan Casero</a>
+                </li>
+            </ul>
+          </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+</section>
+</nav>
+    </header>
+<!--Carrusel-->
+<section class="img-fluid" height="50vh">
+<div id="carousel" class="carousel slide">
+  <!--Desplazamiento en Carrusel-->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+  </div>
+  <div class="carousel-inner">
+  <div class="carousel-item active">
+      <img src="fotos-sammetcake/TortaEspejo.jpg" class="d-inline-block w-100" style="height:600px;" alt="Torta Efeto Espejo">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>La felicidad está...</h5>
+      </div>
+    </div>
+    <div class="carousel-item">    
+      <img src="fotos-sammetcake/TortaEspejoCorte.jpg" class="d-inline-block w-100" style="height: 600px;" alt="Torta Efeto Espejo">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 style="color: black;">Al alcance de un click</h5>
+        <p style="color:gray;"><small>Torta efecto Espejo - Best Seller</small></p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+<div>
+<p style="padding: 20px 0px; text-align: justify; margin: 10px; background-color: rgba(141, 139, 139, 0.533);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi corrupti aliquid laborum. Consectetur nulla illo, ea itaque, iste delectus, sint ipsum aliquam omnis ex iusto! Ab veniam tempore id voluptates.
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, error? Nulla voluptas minima quibusdam perspiciatis deserunt eligendi aspernatur, quae repudiandae animi reprehenderit fuga maxime, sequi culpa alias consequuntur explicabo eius.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, itaque incidunt repellat ex nulla aliquid reiciendis quisquam beatae expedita, non atque quod ullam quos quia error corrupti temporibus sunt laborum?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet facilis officia hic eaque quam in numquam provident qui optio atque unde suscipit nostrum reprehenderit corrupti quod sunt, sed iste quis!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore debitis ut commodi beatae voluptatum ipsa provident nam culpa officiis aliquid modi maiores necessitatibus nobis maxime numquam unde alias, voluptates incidunt!
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nam a incidunt, reprehenderit cupiditate vero rerum iure eaque magni, nulla dicta. Iusto nemo tempora iste accusamus incidunt vel repellat ipsa?
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, culpa? Animi sint perferendis facere? Neque facilis reiciendis eaque beatae nesciunt nam iusto repellat aut, sequi, autem rerum vitae. Labore, molestiae!
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto nisi vero laborum quas sed earum expedita, eligendi aspernatur voluptatibus? Neque in similique at ratione, quis molestias necessitatibus nam accusamus molestiae?
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, error? Nulla voluptas minima quibusdam perspiciatis deserunt eligendi aspernatur, quae repudiandae animi reprehenderit fuga maxime, sequi culpa alias consequuntur explicabo eius.
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, itaque incidunt repellat ex nulla aliquid reiciendis quisquam beatae expedita, non atque quod ullam quos quia error corrupti temporibus sunt laborum?
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet facilis officia hic eaque quam in numquam provident qui optio atque unde suscipit nostrum reprehenderit corrupti quod sunt, sed iste quis!
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore debitis ut commodi beatae voluptatum ipsa provident nam culpa officiis aliquid modi maiores necessitatibus nobis maxime numquam unde alias, voluptates incidunt!
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nam a incidunt, reprehenderit cupiditate vero rerum iure eaque magni, nulla dicta. Iusto nemo tempora iste accusamus incidunt vel repellat ipsa?
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, culpa? Animi sint perferendis facere? Neque facilis reiciendis eaque beatae nesciunt nam iusto repellat aut, sequi, autem rerum vitae. Labore, molestiae!
+  </p>
+  <div>
+    <p class="newbg">
+      Seguinos en Instagram @SammetCake
+    </p>
+    <style>
+      .newbg {
+        width: 100%;
+        height: 300px;
+        color:black;
+        padding-top: 150px;
+        text-align:center;
+        background: url("fotos-sammetcake/MarquiseFrutillas.jpg") center/cover fixed #0008
+      }
+    </style>
+  </div>
+</div>
+<!--Tarjetas-->
+<div style="background-color: rgba(141, 139, 139, 0.533);">
+<h1 style="text-align: center; padding-bottom: 20px; text-decoration: underline overline;">En <strong style="color:brown">Sammet Cake </strong>podes personalizar tu torta</h1>
+<h3 style="color: rgb(58, 57, 57); font-family: 'Courier New', Courier, monospace;text-align: center;"> -ˋˏ ༻✿༺ ˎˊ- Con memes -ˋˏ ༻✿༺ ˎˊ- </h3>
+<div class="conteiner-fluid">
+  <div class="row" style="justify-content: center; padding-top: 10px;">
+    <div class="card col-md-12 col-xs-6" style="width: 18rem; margin-right: 10px;">
+      <img src="fotos-sammetcake/TortaFlork1.jpg" class="card-image-top" alt="Torta Deco Clasica">
+      <div class="card-body">
+        <h2 class="card-text text-center" style="color:darkgrey">-Torta meme Flork "Too old for Di Caprio"-</h2>
+      </div>
+    </div>
+    <div class="card col-md-12 col-xs-6" style="width: 18rem; margin-right: 10px;">
+      <img src="fotos-sammetcake/TortaFlork2.jpg" class="card-image-top" alt="Torta Deco Clasica">
+      <div class="card-body">
+        <h2 class="card-text text-center" style="color:darkgray">-Torta meme Flork con frase clásica-</h2>
+      </div>
+    </div>
+  </div>
+</div>
+<h3 style="color: rgb(58, 57, 57); font-family: 'Courier New', Courier, monospace;text-align: center; padding-top: 20px;"> -ˋˏ ༻✿༺ ˎˊ- Con tus personajes favoritos -ˋˏ ༻✿༺ ˎˊ- </h3>
+<div class="conteiner-fluid">
+  <div class="row" style="justify-content: center; padding-top: 10px;">
+    <div class="card col-md-12 col-xs-6" style="width: 18rem; margin-right: 10px;">
+      <img src="fotos-sammetcake/TortaMiniom.jpg" class="card-image-top" alt="Torta Deco Miniom">
+      <div class="card-body">
+        <h2 class="card-text text-center" style="color:darkgrey">-Torta full decorada-</h2>
+      </div>
+    </div>
+    <div class="card col-md-12 col-xs-6" style="width: 18rem; margin-right: 10px;">
+      <img src="fotos-sammetcake/TortaSnoopy.jpg" class="card-image-top" alt="Torta Deco Snoopy">
+      <div class="card-body">
+        <h2 class="card-text text-center" style="color:darkgray">-Torta personaje + frase clásica-</h2>
+      </div>
+    </div>
+    <div class="card col-md-12 col-xs-6" style="width: 18rem; margin-right: 10px;">
+      <img src="fotos-sammetcake/TortaPrincipito.jpg" class="card-image-top" alt="Torta Deco Principito">
+      <div class="card-body">
+        <h2 class="card-text text-center" style="color:darkgray">-Torta personaje-</h2>
+      </div>
+    </div>
+</div>
+  <h3 style="color: rgb(58, 57, 57); font-family: 'Courier New', Courier, monospace;text-align: center; padding-top: 20px;">-ˋˏ ༻✿༺ ˎˊ- Y recordá que no importa el motivo de celebración...</h3>
+<div class="conteiner-fluid">
+  <div class="row" style="justify-content: center; padding-top: 10px;">
+    <div class="card col-md-12 col-xs-6" style="width: 18rem; margin-right: 10px;">
+      <img src="fotos-sammetcake/TortaMeme1.jpg" class="card-image-top" alt="Torta Deco Clasica">
+      <div class="card-body">
+        <h2 class="card-text text-center" style="color:darkgrey">-Porque el amor no conoce el tiempo-</h2>
+      </div>
+    </div>
+    <div class="card col-md-12 col-xs-6" style="width: 18rem; margin-right: 10px;">
+      <img src="fotos-sammetcake/TortaMeme2.jpg" class="card-image-top" alt="Torta Deco Clasica">
+      <div class="card-body">
+        <h2 class="card-text text-center" style="color:darkgray">-Para esa amiga que volvió al camino del bien-</h2>
+      </div>
+    </div>
+    <div class="card col-md-12 col-xs-6" style="width: 18rem; margin-right: 10px;">
+      <img src="fotos-sammetcake/TortaMeme3.jpg" class="card-image-top" alt="Torta Deco Clasica">
+      <div class="card-body">
+        <h2 class="card-text text-center" style="color:darkgray">-Y porque todos los días existen razones para celebrar-</h2>
+      </div>
+    </div>
+  </div>
+  <h3 style="color: rgb(58, 57, 57); font-family: 'Courier New', Courier, monospace;text-align: center; padding-top: 20px; padding-bottom: 20px;">Lo importante es hacerlo de forma <strong style="color: brown;">dulce</strong> -ˋˏ ༻✿༺ ˎˊ-</h3>
+</div>
+</div>
+<!--Pie de Pagina-->
+<footer class="text-center text-lg-start" style="background-color: #0008; justify-content: center;">
+    <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright: Sammet Cake
+    </div>
+  </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
